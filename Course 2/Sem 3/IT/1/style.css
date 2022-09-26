@@ -1,0 +1,59 @@
+h1 {
+    text-align: center;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.brig {
+    text-align: right;
+    font-weight: 700;
+}
+
+.fio {
+    text-align: right;
+    line-height: 2px;
+}
+
+.push {
+    text-align: right;
+}
+
+.text {
+    margin-left: 60px;
+}
+
+.hist-back {
+    display: block;
+    margin: 0 100px 0 100px;
+    padding: 0 300px 0 300px;
+    background-color: rgb(169, 182, 196);
+    width: 600px;
+    height: 470px;
+}
+
+.hist-head {
+    margin: 0 auto;
+    /*margin-bottom: 10px;*/
+    /*padding-top: 1em;*/
+    border: 1px dashed red;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Arial";
+    text-shadow: 0 3px 4px blue;
+    color: blue;
+}
+
+.text-hist {
+    line-height: 1.5;
+    margin: 1em 2em 0 5em;
+    padding: 15px;
+    background-color: aliceblue;
+    border-right: 6px double blue;
+
+}
+
+.link {
+    color: green;
+}
