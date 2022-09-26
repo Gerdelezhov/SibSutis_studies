@@ -1,1 +1,1 @@
-# SibSutis_-studies
+# SibSutis_studies
