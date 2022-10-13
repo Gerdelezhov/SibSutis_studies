@@ -3,7 +3,6 @@
 #include <stdlib.h>
 #include <string.h>
 
-
 void count(bstree* tree, int* k)
 {
     if (tree != NULL) {

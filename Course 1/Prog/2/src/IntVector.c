@@ -110,7 +110,7 @@ int int_vector_shrink_to_fit(IntVector* v)
 
 int int_vector_resize(IntVector* v, size_t new_size)
 {
-    if (new_size <= v->size){
+    if (new_size <= v->size) {
         v->size = new_size;
     }
     if (new_size == v->size)
@@ -123,7 +123,7 @@ int int_vector_resize(IntVector* v, size_t new_size)
         if (t == NULL)
             return -1;
         v->data = t;
-        for (int i = new_size - v->size; i < new_size; i++){
+        for (int i = new_size - v->size; i < new_size; i++) {
             v->data[i] = 0;
         }
         v->size = new_size;

@@ -13,6 +13,7 @@ double wtime() //функция берущая системное время
     gettimeofday(&t, NULL);
     return (double)t.tv_sec + (double)t.tv_usec * 1E-6;
 }
+
 //---------------------------------------------------------------------------
 void counting(int mass[], int prom[], int shir) // counting sort
 {
@@ -31,10 +32,10 @@ void counting(int mass[], int prom[], int shir) // counting sort
     end = wtime();
     printf("%d - %f\n", shir, (end - start));
 }
+
 //---------------------------------------------------------------------------
 void bubble(int mass[], int shir) // bubble sort
 {
-    int i = 0, b = 0, j = 0;
     double start, end, prom;
     start = wtime();
     for (int i = 0; i < shir - 1; i++) {
@@ -49,6 +50,7 @@ void bubble(int mass[], int shir) // bubble sort
     end = wtime();
     printf("%d - %f\n", shir, (end - start));
 }
+
 //---------------------------------------------------------------------------
 void heapify(int arr[], int shir, int i) //вспомогательная функция для heap sort
 {
@@ -74,7 +76,7 @@ void heapify(int arr[], int shir, int i) //вспомогательная фун
 
 void heap(int arr[], int shir) // heap sort
 {
-    double start, end, prom;
+    double start, end;
     start = wtime();
 
     int temp;
@@ -92,12 +94,12 @@ void heap(int arr[], int shir) // heap sort
     end = wtime();
     printf("%d - %f\n", shir, (end - start));
 }
+
 //---------------------------------------------------------------------------
 int main()
 {
     int shir, prom[100001];
-    int i = 0, b = 0, j = 0;
-    double start, end;
+    int i = 0;
     printf("counting:\n");
     for (shir = 50000; shir <= 1000000; shir += 50000) {
         int mass[shir];
@@ -114,7 +116,7 @@ int main()
     }
 
     printf("bubble:\n");
-    for (shir = 50000; shir <= 0; shir += 50000) {
+    for (shir = 50000; shir <= 1000000; shir += 50000) {
         int mass[shir];
         for (i = 0; i < shir; i++) //заполнение сортируемого массива
         {

@@ -86,7 +86,7 @@ int main()
                 printf("%-6d - %.6lf\n", i, t);
             }
         }
-        
+
         printf("Hashtab:\n");
         hashtab_init(hashtab);
         struct listnode* node_ht = NULL;
