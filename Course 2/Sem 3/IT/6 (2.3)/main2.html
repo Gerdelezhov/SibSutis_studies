@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+</head>
+
+<body background="texture.jpg">
+	<form name="square">
+		<h2 align="center">Вычисление площади</h2>
+		<p>Перейдите на поле 'Сторона'</p>
+		<p>Сторона: <input type="text" id="input"></p>
+		<p>Площадь: <input type="text" id="output"></p>
+	</form>
+
+	<script>
+		document.getElementById("input").addEventListener("focus", getSquare);
+		function getSquare() {
+			output = document.getElementById("output");
+			output.value = input.value * input.value;
+		}
+	</script>
+</body>
+
+</html>
