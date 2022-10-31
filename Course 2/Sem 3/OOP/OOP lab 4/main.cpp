@@ -1,7 +1,3 @@
-/*
-
-*/
-
 #include "main.h"
 #include "point.h"
 #include "line.h"
@@ -291,13 +287,8 @@ void timer(int = 0)
 	}
 */
 
-	glutTimerFunc(100000, timer, 0);
+	glutTimerFunc(1, timer, 0);
 }
-
-
-
-
-
 
 int main(int argc, char **argv)
 {
