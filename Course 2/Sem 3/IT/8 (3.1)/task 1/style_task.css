@@ -1,0 +1,54 @@
+.parent {
+    left: 33%;
+    vertical-align: middle;
+    position: absolute;
+    width: 33%;
+    height: 22px;
+    background: #01796f;
+    color: rgb(113, 48, 137);
+    text-align: center;
+    margin: 0 auto;
+}
+
+.menu_list {
+    position: absolute;
+    top: 19px;
+    z-index: 2;
+    height: 70px;
+    background-color: #01796f;
+    border: 2px solid black;
+    padding: 4px;
+    display: none;
+}
+
+.menu1 {
+    left: 14%
+}
+
+.menu2 {
+    left: 40%
+}
+
+.menu3 {
+    left: 67%
+}
+
+.menu4 {
+    top: 5px;
+    left: 100%
+}
+
+.but {
+    text-align: center;
+    height: 20px;
+    vertical-align: middle;
+}
+
+.but2 {
+    text-align: center;
+    height: 20px;
+    vertical-align: middle;
+}
+.but:hover {
+    background: blue;
+}

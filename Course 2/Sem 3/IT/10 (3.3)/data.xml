@@ -1,0 +1,263 @@
+<data>
+	<fakultet name="ИВТ">
+		<kurs value="1">
+			<gruppa name="ГР-21">
+				<stud name="Студент №1">
+					<mark name="m1">0</mark>
+					<mark name="m2">2</mark>
+					<mark name="m3">0</mark>
+					<mark name="m4">1</mark>
+					<mark name="m5">1</mark>
+					<mark name="m6">0</mark>
+					<mark name="m7">2</mark>
+				</stud>
+				<stud name="Студент №2">
+					<mark name="m1">0</mark>
+					<mark name="m2">2</mark>
+					<mark name="m3">2</mark>
+					<mark name="m4">0</mark>
+					<mark name="m5">1</mark>
+					<mark name="m6">1</mark>
+					<mark name="m7">2</mark>
+				</stud>
+				<predmeti>
+					<predmet>История</predmet>
+					<predmet>Право</predmet>
+					<predmet>Иностранный язык</predmet>
+					<predmet>Русский язык</predmet>
+					<predmet>Политология</predmet>
+					<predmet>Информатика</predmet>
+					<predmet>Физическая Культура</predmet>
+				</predmeti>
+			</gruppa>
+			<gruppa name="ИВ-221">
+				<stud name="Студент №1">
+					<mark name="m1">0</mark>
+					<mark name="m2">2</mark>
+					<mark name="m3">0</mark>
+					<mark name="m4">1</mark>
+					<mark name="m5">1</mark>
+					<mark name="m6">0</mark>
+					<mark name="m7">2</mark>
+				</stud>
+				<stud name="Студент №2">
+					<mark name="m1">0</mark>
+					<mark name="m2">2</mark>
+					<mark name="m3">2</mark>
+					<mark name="m4">0</mark>
+					<mark name="m5">1</mark>
+					<mark name="m6">1</mark>
+					<mark name="m7">2</mark>
+				</stud>
+				<predmeti>
+					<predmet>Програмирование</predmet>
+					<predmet>Право</predmet>
+					<predmet>Иностранный язык</predmet>
+					<predmet>САОД</predmet>
+					<predmet>ТРПО</predmet>
+					<predmet>Информатика</predmet>
+					<predmet>Физическая Культура</predmet>
+				</predmeti>
+			</gruppa>
+		</kurs>
+		<kurs value="2">
+			<gruppa name="ИВ-121">
+				<stud name="Студент №1">
+					<mark name="m1">2</mark>
+					<mark name="m2">1</mark>
+					<mark name="m3">2</mark>
+					<mark name="m4">2</mark>
+					<mark name="m5">2</mark>
+					<mark name="m6">1</mark>
+					<mark name="m7">2</mark>
+				</stud>
+				<stud name="Студент №2">
+					<mark name="m1">1</mark>
+					<mark name="m2">2</mark>
+					<mark name="m3">1</mark>
+					<mark name="m4">2</mark>
+					<mark name="m5">0</mark>
+					<mark name="m6">1</mark>
+					<mark name="m7">0</mark>
+				</stud>
+				<stud name="Студент №3">
+					<mark name="m1">1</mark>
+					<mark name="m2">2</mark>
+					<mark name="m3">1</mark>
+					<mark name="m4">1</mark>
+					<mark name="m5">2</mark>
+					<mark name="m6">1</mark>
+					<mark name="m7">2</mark>
+				</stud>
+			</gruppa>
+			<gruppa name="ИВ-122">
+				<stud name="Махаева Алина Витальевна">
+					<mark name="m1">1</mark>
+					<mark name="m2">0</mark>
+					<mark name="m3">2</mark>
+					<mark name="m4">0</mark>
+					<mark name="m5">1</mark>
+					<mark name="m6">1</mark>
+					<mark name="m7">2</mark>
+				</stud>
+				<stud name="Гердележов Даниил Дмитриевич">
+					<mark name="m1">2</mark>
+					<mark name="m2">1</mark>
+					<mark name="m3">2</mark>
+					<mark name="m4">1</mark>
+					<mark name="m5">1</mark>
+					<mark name="m6">2</mark>
+					<mark name="m7">2</mark>
+				</stud>
+				<stud name="Жбанов Митрофан Максимович">
+					<mark name="m1">0</mark>
+					<mark name="m2">1</mark>
+					<mark name="m3">0</mark>
+					<mark name="m4">0</mark>
+					<mark name="m5">1</mark>
+					<mark name="m6">1</mark>
+					<mark name="m7">0</mark>
+				</stud>
+				<stud name="Коваленко Антон Александрович">
+					<mark name="m1">1</mark>
+					<mark name="m2">0</mark>
+					<mark name="m3">2</mark>
+					<mark name="m4">0</mark>
+					<mark name="m5">1</mark>
+					<mark name="m6">0</mark>
+					<mark name="m7">2</mark>
+				</stud>
+				<stud name="Логинов Владистав Романович">
+					<mark name="m1">2</mark>
+					<mark name="m2">1</mark>
+					<mark name="m3">0</mark>
+					<mark name="m4">2</mark>
+					<mark name="m5">1</mark>
+					<mark name="m6">2</mark>
+					<mark name="m7">0</mark>
+				</stud>
+				<predmeti>
+					<predmet>Математика</predmet>
+					<predmet>МЛТА</predmet>
+					<predmet>ЭЭС</predmet>
+					<predmet>Интернет-технологии</predmet>
+					<predmet>САОД</predmet>
+					<predmet>ООП</predmet>
+					<predmet>Физическая Культура</predmet>
+				</predmeti>
+			</gruppa>
+		</kurs>
+	</fakultet>
+
+	<fakultet name="ИТ">
+		<kurs value="1">
+			<gruppa name="АП-101">
+				<stud name="Студент №1">
+					<mark name="m1">2</mark>
+					<mark name="m2">2</mark>
+					<mark name="m3">2</mark>
+					<mark name="m4">2</mark>
+					<mark name="m5">2</mark>
+					<mark name="m6">2</mark>
+					<mark name="m7">2</mark>
+				</stud>
+				<stud name="Студент №2">
+					<mark name="m1">1</mark>
+					<mark name="m2">2</mark>
+					<mark name="m3">1</mark>
+					<mark name="m4">2</mark>
+					<mark name="m5">0</mark>
+					<mark name="m6">1</mark>
+					<mark name="m7">0</mark>
+				</stud>
+				<stud name="Студент №3">
+					<mark name="m1">1</mark>
+					<mark name="m2">2</mark>
+					<mark name="m3">1</mark>
+					<mark name="m4">1</mark>
+					<mark name="m5">2</mark>
+					<mark name="m6">1</mark>
+					<mark name="m7">2</mark>
+				</stud>
+				<predmeti>
+					<predmet>Операционные системы</predmet>
+					<predmet>Социология и право</predmet>
+					<predmet>Антенны и распространение радиовол</predmet>
+					<predmet>Вычислительная техника </predmet>
+					<predmet>Социлогия</predmet>
+					<predmet>Элементная база телекоммуникационных cистем </predmet>
+					<predmet>Физическая Культура</predmet>
+				</predmeti>
+			</gruppa>
+			<gruppa name="АП-103">
+				<stud name="Студент №1">
+					<mark name="m1">0</mark>
+					<mark name="m2">0</mark>
+					<mark name="m3">0</mark>
+					<mark name="m4">1</mark>
+					<mark name="m5">1</mark>
+					<mark name="m6">1</mark>
+					<mark name="m7">0</mark>
+				</stud>
+				<stud name="Студент №2">
+					<mark name="m1">1</mark>
+					<mark name="m2">0</mark>
+					<mark name="m3">1</mark>
+					<mark name="m4">2</mark>
+					<mark name="m5">1</mark>
+					<mark name="m6">2</mark>
+					<mark name="m7">0</mark>
+				</stud>
+				<stud name="Студент №3">
+					<mark name="m1">0</mark>
+					<mark name="m2">2</mark>
+					<mark name="m3">1</mark>
+					<mark name="m4">0</mark>
+					<mark name="m5">0</mark>
+					<mark name="m6">2</mark>
+					<mark name="m7">1</mark>
+				</stud>
+				<predmeti>
+					<predmet>Операционные системы</predmet>
+					<predmet>Социология и право</predmet>
+					<predmet>Антенны и распространение радиовол</predmet>
+					<predmet>Вычислительная техника </predmet>
+					<predmet>Социлогия</predmet>
+					<predmet>Элементная база телекоммуникационных cистем </predmet>
+					<predmet>Физическая Культура</predmet>
+				</predmeti>
+			</gruppa>
+		</kurs>
+		<kurs value="2">
+			<gruppa name="МИ-19">
+				<stud name="Студент №1">
+					<mark name="m1">2</mark>
+					<mark name="m2">2</mark>
+					<mark name="m3">1</mark>
+					<mark name="m4">1</mark>
+					<mark name="m5">1</mark>
+					<mark name="m6">2</mark>
+					<mark name="m7">2</mark>
+				</stud>
+				<stud name="Студент №2">
+					<mark name="m1">1</mark>
+					<mark name="m2">2</mark>
+					<mark name="m3">0</mark>
+					<mark name="m4">0</mark>
+					<mark name="m5">0</mark>
+					<mark name="m6">1</mark>
+					<mark name="m7">0</mark>
+				</stud>
+				<predmeti>
+					<predmet>Основы научных исследований</predmet>
+					<predmet>Ин яз</predmet>
+					<predmet>Теория вероятностей</predmet>
+					<predmet>Система технической документации</predmet>
+					<predmet>Социология и право</predmet>
+					<predmet>Физика-химия материалов</predmet>
+					<predmet>Теория электрических цепе</predmet>
+				</predmeti>
+			</gruppa>
+		</kurs>
+	</fakultet>
+</data>

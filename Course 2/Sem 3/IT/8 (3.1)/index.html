@@ -1,0 +1,36 @@
+<!DOCTYPE HTML>
+<HTML lang="ENG">
+
+<head>
+    <title>Лабораторная работа 8 (3.1)</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <div class = "parent">
+        <span class="but" onmouseover="Mover(m1)" onmouseout="Mout(m1)">menu 1</span>
+        <div id="m1" class="menu_list menu1" onmouseover="Mover(this)" onmouseout="Mout(this)">
+            <span onmouseover="Aover(this)" onmouseout="Aout(this)">submenu_1.1</span><br>
+            <span onmouseover="Aover(this)" onmouseout="Aout(this)">submenu_1.2</span><br>
+            <span onmouseover="Aover(this)" onmouseout="Aout(this)">submenu_1.3</span><br>
+            <span onmouseover="Aover(this)" onmouseout="Aout(this)">submenu_1.4</span>
+        </div>
+        <span class="but" onmouseover="Mover(m2)" onmouseout="Mout(m2)">menu 2</span>
+        <div id="m2" class="menu_list menu2" onmouseover="Mover(this)" onmouseout="Mout(this)">
+            <span onmouseover="Aover(this)" onmouseout="Aout(this)"> submenu_2.1</span><br>
+            <span onmouseover="Aover(this)" onmouseout="Aout(this)"> submenu_2.2</span><br>
+            <span onmouseover="Aover(this)" onmouseout="Aout(this)"> submenu_2.3</span><br>
+            <span onmouseover="Aover(this)" onmouseout="Aout(this)"> submenu_2.4</span>
+        </div>
+        <span class="but" onmouseover="Mover(m3)" onmouseout="Mout(m3)">menu 3</span>
+        <div id="m3" class="menu_list menu3" onmouseover="Mover(this)" onmouseout="Mout(this)">
+            <span onmouseover="Aover(this)" onmouseout="Aout(this)"> submenu_3.1</span><br>
+            <span onmouseover="Aover(this)" onmouseout="Aout(this)"> submenu_3.2</span><br>
+            <span onmouseover="Aover(this)" onmouseout="Aout(this)"> submenu_3.3</span><br>
+            <span onmouseover="Aover(this)" onmouseout="Aout(this)"> submenu_3.4</span>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
