@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RomanNumbersCalculator", "VpHw_1\RomanNumbersCalculator.csproj", "{4037E848-34CC-4C81-9CFF-6734CAEEB7D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UITestsForRomanNumbersCalculator", "TestProject1\UITestsForRomanNumbersCalculator.csproj", "{AD104F1D-9F9D-4403-B3E5-E639DA7EA169}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4037E848-34CC-4C81-9CFF-6734CAEEB7D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4037E848-34CC-4C81-9CFF-6734CAEEB7D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4037E848-34CC-4C81-9CFF-6734CAEEB7D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4037E848-34CC-4C81-9CFF-6734CAEEB7D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD104F1D-9F9D-4403-B3E5-E639DA7EA169}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD104F1D-9F9D-4403-B3E5-E639DA7EA169}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD104F1D-9F9D-4403-B3E5-E639DA7EA169}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD104F1D-9F9D-4403-B3E5-E639DA7EA169}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {23549098-0963-468D-A39E-C8FD43EF449C}
+	EndGlobalSection
+EndGlobal

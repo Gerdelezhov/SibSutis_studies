@@ -1,0 +1,336 @@
+@font-face {
+    font-family: CeraPro;
+    font-display: swap;
+    src: url('../fonts/CeraPro-Medium.eot');
+    src: url('../fonts/CeraPro-Medium.eot?#iefix') format('embedded-opentype'), url('../fonts/CeraPro-Medium.woff2') format('woff2'), url('../fonts/CeraPro-Medium.woff') format('woff'), url('../fonts/CeraPro-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+body {
+    margin: 0;
+}
+
+.main-menu{
+    position: relative;
+    margin-left: 4px !important;
+    margin-top: 2px !important;
+}
+
+.menu-header {
+    display: flex;
+    align-items: center;
+}
+
+.menu-header a:after {
+    content: '';
+    margin: 0 auto;
+    display: block;
+    height: 2px;
+    width: 0;
+    background: #0142EC;
+    margin-top: 7px;
+    transition: width 0.2s ease;
+}
+
+.menu-header a:hover::after {
+    width: 35px;
+}
+
+.menu-header a.selected {
+    cursor: default;
+}
+
+.menu-header a.selected:after {
+    width: 35px;
+}
+
+
+/*0px - 405px*/
+@media (min-width: 0px) {
+    .menu-header a {
+        color: #7B7D81;
+        line-height: 1.2;
+        font-size: 70%;
+        font-family: CeraPro, arial;
+        font-weight: 500;
+        padding: 0 10px;
+        text-decoration: none;
+        margin-top: 7px;
+    }
+
+    .main-menu div a img {
+        width: 25px !important;
+        height: 25px !important;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .main-menu div {
+        float: left;
+        width: 1%;
+        margin-right: 5%;
+        padding: 10px;
+    }
+}
+
+
+/*406px -439px*/
+@media (min-width: 406px) {
+    .menu-header a {
+        color: #7B7D81;
+        line-height: 1.2;
+        font-size: 80%;
+        font-family: CeraPro, arial;
+        font-weight: 500;
+        padding: 0 10px;
+        text-decoration: none;
+        margin-top: 7px;
+    }
+
+    .main-menu div a img {
+        width: 28px !important;
+        height: 28px !important;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .main-menu div {
+        float: left;
+        width: 1%;
+        margin-right: 2%;
+        padding: 10px;
+    }
+}
+
+
+/*440px - 654px*/
+@media (min-width: 440px) {
+    .menu-header a {
+        color: #7B7D81;
+        line-height: 1.2;
+        font-size: 90%;
+        font-family: CeraPro, arial;
+        font-weight: 500;
+        padding: 0 10px;
+        text-decoration: none;
+        margin-top: 7px;
+    }
+
+    .main-menu div a img {
+        width: 30px !important;
+        height: 30px !important;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .main-menu div {
+        float: left;
+        width: 1%;
+        margin-right: 6%;
+        padding: 10px;
+    }
+}
+
+
+/*654px - 750px*/
+@media (min-width: 654px) {
+    .menu-header a {
+        color: #7B7D81;
+        line-height: 1.2;
+        font-size: 100%;
+        font-family: CeraPro, arial;
+        font-weight: 500;
+        padding: 0 10px;
+        text-decoration: none;
+        margin-top: 7px;
+    }
+
+    .main-menu div a img {
+        width: 34px !important;
+        height: 34px !important;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .main-menu div {
+        float: left;
+        width: 1%;
+        margin-right: 15%;
+        padding: 10px;
+    }
+}
+
+
+/*751px - 902px*/
+@media (min-width: 751px) {
+    .menu-header a {
+        color: #7B7D81;
+        line-height: 1.2;
+        font-size: 100%;
+        font-family: CeraPro, arial;
+        font-weight: 500;
+        padding: 0 10px;
+        text-decoration: none;
+        margin-top: 7px;
+    }
+
+    .main-menu div a img {
+        width: 39px !important;
+        height: 39px !important;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .main-menu div {
+        float: left;
+        width: 1%;
+        margin-right: 18%;
+        padding: 10px;
+    }
+}
+
+
+/*903px - 1050px*/
+@media (min-width: 903px) {
+    .menu-header a {
+        color: #7B7D81;
+        line-height: 1.2;
+        font-size: 110%;
+        font-family: CeraPro, arial;
+        font-weight: 500;
+        padding: 0 10px;
+        text-decoration: none;
+        margin-top: 7px;
+    }
+
+    .main-menu div a img {
+        width: 44px !important;
+        height: 44px !important;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .main-menu div {
+        float: left;
+        width: 1%;
+        margin-right: 21%;
+        padding: 10px;
+    }
+}
+
+
+/*1051px - 1199px*/
+@media (min-width: 1051px) {
+    .menu-header a {
+        color: #7B7D81;
+        line-height: 1.2;
+        font-size: 110%;
+        font-family: CeraPro, arial;
+        font-weight: 500;
+        padding: 0 10px;
+        text-decoration: none;
+        margin-top: 7px;
+    }
+
+    .main-menu div a img {
+        width: 42px !important;
+        height: 42px !important;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .main-menu div {
+        float: left;
+        width: 1%;
+        margin-right: 25%;
+        padding: 10px;
+    }
+}
+
+
+/*1200px - 1574px*/
+@media (min-width: 1200px) {
+    .menu-header a {
+        color: #7B7D81;
+        line-height: 1.2;
+        font-size: 120%;
+        font-family: CeraPro, arial;
+        font-weight: 500;
+        padding: 0 25px;
+        text-decoration: none;
+        margin-top: 7px;
+    }
+
+    .main-menu div a img {
+        width: 40px !important;
+        height: 40px !important;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .main-menu div {
+        float: left;
+        width: 1%;
+        margin-right: 25%;
+        padding: 10px;
+    }
+}
+
+
+/*1200px - 1576px*/
+@media (min-width: 1575px) {
+    .menu-header a {
+        color: #7B7D81;
+        line-height: 1.2;
+        font-size: 120%;
+        font-family: CeraPro, arial;
+        font-weight: 500;
+        padding: 0 25px;
+        text-decoration: none;
+        margin-top: 7px;
+    }
+
+    .main-menu div a img {
+        width: 43px !important;
+        height: 43px !important;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .main-menu div {
+        float: left;
+        width: 1%;
+        margin-right: 26%;
+        padding: 10px;
+    }
+}
+
+
+/*больше 1731px*/
+@media (min-width: 1731px) {
+    .menu-header a {
+        color: #7B7D81;
+        line-height: 1.2;
+        font-size: 140%;
+        font-family: CeraPro, arial;
+        font-weight: 500;
+        padding: 0 25px;
+        text-decoration: none;
+        margin-top: 7px;
+    }
+
+    .main-menu div a img {
+        width: 12% !important;
+        height: 12% !important;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .main-menu div {
+        float: left;
+        width: 23.5%;
+        margin-right: 3%;
+        padding: 10px;
+    }
+}

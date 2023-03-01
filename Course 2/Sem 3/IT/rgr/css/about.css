@@ -1,0 +1,327 @@
+@font-face {
+    font-family: CeraPro;
+    font-display: swap;
+    src: url('../fonts/CeraPro-Medium.eot');
+    src: url('../fonts/CeraPro-Medium.eot?#iefix') format('embedded-opentype'), url('../fonts/CeraPro-Medium.woff2') format('woff2'), url('../fonts/CeraPro-Medium.woff') format('woff'), url('../fonts/CeraPro-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+body {
+    font-family: CeraPro, arial;
+}
+
+/*0px - 405px*/
+@media (min-width: 0px) {
+    .company_info {
+        font-size: 10px;
+        width: 100%;
+        margin-top: 30px;
+        line-height: 1.3;
+        font-family: CeraPro, arial;
+        font-weight: 500;
+    }
+
+    .info_text {
+        margin-left: 4%;
+        width: 100%;
+    }
+
+    .phone p {
+        margin-bottom: 4%
+    }
+
+    .company_photo img {
+        position: fixed;
+        min-width: 48%;
+        width: 100%;
+        height: 50%;
+        object-fit: cover;
+    }
+}
+
+
+/*406px -439px*/
+@media (min-width: 406px) {
+    .company_info {
+        font-size: 10px;
+        position: absolute;
+        min-width: 48%;
+        margin-top: 30px;
+        line-height: 1.3;
+        font-family: CeraPro, arial;
+        font-weight: 500;
+    }
+
+    .info_text {
+        margin-left: 15%;
+        width: 100%;
+
+    }
+
+    .phone p {
+        margin-bottom: 5%
+    }
+
+    .company_photo img {
+        position: fixed;
+        min-width: 48%;
+        width: 100%;
+        height: 50%;
+        object-fit: cover;
+    }
+}
+
+
+/*440px - 654px*/
+@media (min-width: 440px) {
+    .company_info {
+        font-size: 12px;
+        position: absolute;
+        min-width: 48%;
+        margin-top: 30px;
+        line-height: 1.3;
+        font-family: CeraPro, arial;
+        font-weight: 500;
+    }
+
+    .info_text {
+        margin-left: 20%;
+        width: 100%;
+    }
+
+    .phone p {
+        margin-bottom: 5%
+    }
+
+    .company_photo img {
+        position: fixed;
+        min-width: 48%;
+        width: 100%;
+        height: 50%;
+        object-fit: cover;
+    }
+}
+
+
+/*654px - 750px*/
+@media (min-width: 645px) {
+    .company_info {
+        font-size: 16px;
+        position: absolute;
+        margin-top: 45px;
+        line-height: 1.3;
+        font-family: CeraPro, arial;
+        font-weight: 500;
+        margin-right: 20px;
+    }
+
+    .info_text {
+        margin-left: 15%;
+        width: 100%;
+    }
+
+    .phone p {
+        margin-bottom: 5%
+    }
+
+    .company_photo img {
+        position: fixed;
+        min-width: 48%;
+        width: 100%;
+        height: 50%;
+        object-fit: cover;
+    }
+}
+
+
+/*751px - 902px*/
+@media (min-width: 751px) {
+    .company_info {
+        font-size: 16px;
+        position: absolute;
+        margin-top: 45px;
+        line-height: 1.3;
+        font-family: CeraPro, arial;
+        font-weight: 500;
+        margin-right: 20px;
+    }
+
+    .info_text {
+        margin-left: 23%;
+        width: 100%;
+    }
+
+    .phone p {
+        margin-bottom: 5%
+    }
+
+    .company_photo img {
+        position: fixed;
+        min-width: 48%;
+        width: 100%;
+        height: 50%;
+        object-fit: cover;
+    }
+}
+
+
+/*903px - 1050px*/
+@media (min-width: 903px) {
+    .company_info {
+        font-size: 18px;
+        position: absolute;
+        margin-top: 45px;
+        line-height: 1.3;
+        font-family: CeraPro, arial;
+        font-weight: 500;
+        margin-right: 20px;
+    }
+
+    .info_text {
+        margin-left: 28%;
+        width: 100%;
+    }
+
+    .phone p {
+        margin-bottom: 5%
+    }
+
+    .company_photo img {
+        position: fixed;
+        min-width: 48%;
+        width: 100%;
+        height: 50%;
+        object-fit: cover;
+    }
+}
+
+
+/*1051px - 1199px*/
+@media (min-width: 1051px) {
+    .company_info {
+        font-size: 18px;
+        position: absolute;
+        margin-top: 45px;
+        line-height: 1.3;
+        font-family: CeraPro, arial;
+        font-weight: 500;
+        margin-right: 20px;
+    }
+
+    .info_text {
+        margin-left: 28%;
+        width: 100%;
+    }
+
+    .phone p {
+        margin-bottom: 5%
+    }
+
+    .company_photo img {
+        position: fixed;
+        min-width: 48%;
+        width: 100%;
+        height: 50%;
+        object-fit: cover;
+    }
+}
+
+
+/*1200px - 1574px*/
+@media (min-width: 1200px) {
+    .company_info {
+        position: absolute;
+        display: flex;
+        font-size: 18px;
+        margin-top: 45px;
+        line-height: 1.3;
+        font-family: CeraPro, arial;
+        font-weight: 500;
+        margin-right: 15%;
+    }
+
+    .info_text {
+        margin-left: 15%;
+    }
+
+    .phone p {
+        margin-bottom: 5%
+    }
+
+    .company_photo img {
+        position: relative;
+        margin-right: 50px;
+        float: left;
+        margin-top: 17px;
+        width: 70%;
+        height: 80%;
+        object-fit: cover;
+    }
+}
+
+
+/*1575px - 1730px*/
+@media (min-width: 1575px) {
+    .company_info {
+        position: absolute;
+        display: flex;
+        font-size: 18px;
+        margin-top: 45px;
+        line-height: 1.3;
+        font-family: CeraPro, arial;
+        font-weight: 500;
+        margin-right: 15%;
+    }
+
+    .info_text {
+        margin-left: 15%;
+    }
+
+    .phone p {
+        margin-bottom: 5%
+    }
+
+    .company_photo img {
+        position: relative;
+        margin-right: 50px;
+        float: left;
+        margin-top: 17px;
+        width: 70%;
+        height: 80%;
+        object-fit: cover;
+    }
+}
+
+
+/*больше 1731px*/
+@media (min-width: 1731px) {
+    .company_info {
+        position: absolute;
+        display: flex;
+        font-size: 25px;
+        margin-top: 45px;
+        line-height: 1.3;
+        font-family: CeraPro, arial;
+        font-weight: 500;
+        margin-right: 15%;
+    }
+
+    .info_text {
+        margin-left: 15%;
+    }
+
+    .phone p {
+        margin-bottom: 5%
+    }
+
+    .company_photo img {
+        position: relative;
+        margin-right: 50px;
+        float: left;
+        margin-top: 17px;
+        width: 70%;
+        height: 95%;
+        object-fit: cover;
+    }
+}

@@ -1,0 +1,94 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:vm="using:VpHw_1.ViewModels"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="440" d:DesignHeight="525"
+        Width="440" Height="525"
+        x:Class="VpHw_1.Views.MainWindow"
+        Title="RomanNumbersCalculator">
+
+    <Design.DataContext>
+        <vm:MainWindowViewModel/>
+    </Design.DataContext>
+
+  <Grid ShowGridLines="False" ColumnDefinitions="110,110,110,110" RowDefinitions="105,105,105,105, 105">
+
+	<TextBlock Name="textBlockMain" Focusable="False" VerticalAlignment="Center" FontSize="40" Grid.Column="0" 
+			   Grid.Row="0" Grid.ColumnSpan="4" TextAlignment="Right" Text="{Binding ShowValue}"></TextBlock>
+    
+    <Button Command="{Binding AddNum}" CommandParameter="I" Name="I" 
+            FontSize="30" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" 
+            Grid.Column="0" Grid.Row="1" 
+			Background="#f0f4f9"
+            HorizontalContentAlignment="Center" VerticalContentAlignment="Center">I</Button>
+	<Button Command="{Binding AddNum}" CommandParameter="C" Name="C"
+			FontSize="30" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"
+			Grid.Column="1" Grid.Row="1"
+			Background="#f0f4f9"
+			HorizontalContentAlignment="Center" VerticalContentAlignment="Center">C</Button>
+	<Button Command="{Binding ExecuteOperationCommand}" CommandParameter="+" Name="Add"
+		    FontSize="30" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"
+	  	    Grid.Column="2" Grid.Row="1"
+		    Background="#f0f4f9"
+		    HorizontalContentAlignment="Center" VerticalContentAlignment="Center">+</Button>
+	  
+	  
+    <Button Command="{Binding AddNum}" CommandParameter="V" Name="V"
+            FontSize="30" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"  
+			Grid.Column="0" Grid.Row="2" 
+			Background="#f0f4f9"
+            HorizontalContentAlignment="Center" VerticalContentAlignment="Center">V</Button>
+	<Button Command="{Binding AddNum}" CommandParameter="D" Name="D"
+			FontSize="30" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"
+			Grid.Column="1" Grid.Row="2"
+			Background="#f0f4f9"
+			HorizontalContentAlignment="Center" VerticalContentAlignment="Center">D</Button>
+	<Button Command="{Binding ExecuteOperationCommand}" CommandParameter="-" Name="Sub"
+		    FontSize="30" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"
+		    Grid.Column="2" Grid.Row="2"
+		    Background="#f0f4f9"
+		    HorizontalContentAlignment="Center" VerticalContentAlignment="Center">-</Button>
+	  
+	  
+    <Button Command="{Binding AddNum}" CommandParameter="X" Name="X"
+            FontSize="30" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"  
+			Grid.Column="0" Grid.Row="3" 
+			Background="#f0f4f9"
+            HorizontalContentAlignment="Center" VerticalContentAlignment="Center">X</Button>    
+	<Button Command="{Binding AddNum}" CommandParameter="M" Name="M"
+			FontSize="30" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"
+			Grid.Column="1" Grid.Row="3"
+			Background="#f0f4f9"
+			HorizontalContentAlignment="Center" VerticalContentAlignment="Center">M</Button>
+	<Button Command="{Binding ExecuteOperationCommand}" CommandParameter="*" Name="Mul"
+			FontSize="30" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"
+			Grid.Column="2" Grid.Row="3"
+			Background="#f0f4f9"
+			HorizontalContentAlignment="Center" VerticalContentAlignment="Center">*</Button>
+	  
+
+	<Button Command="{Binding AddNum}" CommandParameter="L" Name="L"
+			FontSize="30" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"
+			Grid.Column="0" Grid.Row="4"
+			Background="#f0f4f9"
+			HorizontalContentAlignment="Center" VerticalContentAlignment="Center">L</Button>
+	<Button Command="{Binding ExecuteOperationCommand}" CommandParameter="C" Name="CE"
+			FontSize="30" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"
+			Grid.Column="1" Grid.Row="4"
+			Background="#f0f4f9"
+			HorizontalContentAlignment="Center" VerticalContentAlignment="Center">CE</Button>
+	<Button Command="{Binding ExecuteOperationCommand}" CommandParameter="/" Name="Div"
+		    FontSize="30" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"
+		    Grid.Column="2" Grid.Row="4"
+		    Background="#f0f4f9"
+		    HorizontalContentAlignment="Center" VerticalContentAlignment="Center">/</Button>
+
+
+	  <Button Command="{Binding ExecuteOperationCommand}" CommandParameter="="  Name="result"
+            FontSize="30" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"  
+			Grid.Column="3" Grid.Row="1" Grid.RowSpan="4" 
+            HorizontalContentAlignment="Center" VerticalContentAlignment="Center">=</Button>
+  </Grid>
+    
+</Window>

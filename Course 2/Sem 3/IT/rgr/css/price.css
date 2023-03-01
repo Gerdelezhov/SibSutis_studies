@@ -1,0 +1,449 @@
+@font-face {
+    font-family: CeraPro;
+    font-display: swap;
+    src: url('../fonts/CeraPro-Medium.eot');
+    src: url('../fonts/CeraPro-Medium.eot?#iefix') format('embedded-opentype'), url('../fonts/CeraPro-Medium.woff2') format('woff2'), url('../fonts/CeraPro-Medium.woff') format('woff'), url('../fonts/CeraPro-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+body {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    font-family: CeraPro, arial;
+}
+
+.back {
+    width: 100%;
+    height: 100%;
+    background: url(../img/price/1.jpg) fixed right bottom no-repeat;
+    background-size: 100% !important;
+}
+
+.tables {
+    position: relative;
+    color: #363636;
+    line-height: 1.1;
+    font-family: CeraPro, arial;
+    font-weight: 500;
+}
+
+.pageTitle {
+    position: absolute;
+    color: #363636;
+    line-height: 1.1;
+    font-family: CeraPro, arial;
+    font-weight: 500;
+}
+
+/*0px - 405px*/
+@media (min-width: 0px) {
+    .price_main {
+        margin-top: 7%;
+    }
+
+    .pageTitle {
+        color: black;
+        margin-left: 5%;
+        font-size: 14px;
+    }
+
+    .tables {
+        margin-top: 15%;
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        font-weight: 500;
+        font-size: 14px;
+    }
+
+    .list_1,
+    .list_2,
+    .tables th,
+    .tables td {
+        border: 1px solid gray;
+    }
+
+    .lis1 th,
+    .list_1 td {
+        width: 150px;
+        text-align: center;
+    }
+
+    .list_2 th {
+        width: 300px;
+        text-align: left;
+    }
+}
+
+
+/*440px - 654px*/
+@media (min-width: 440px) {
+    .price_main {
+        margin-top: 5%;
+    }
+
+    .pageTitle {
+        color: black;
+        margin-left: 5%;
+        font-size: 18px;
+    }
+
+    .tables {
+        margin-top: 8%;
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        font-weight: 500;
+        font-size: 14px;
+    }
+
+    .list_1,
+    .list_2,
+    .tables th,
+    .tables td {
+        border: 1px solid gray;
+    }
+
+    .lis1 th,
+    .list_1 td {
+        width: 150px;
+        text-align: center;
+    }
+
+    .list_2 th {
+        width: 300px;
+        text-align: left;
+    }
+}
+
+
+/*654px - 750px*/
+@media (min-width: 645px) {
+    .price_main {
+        margin-left: 10%;
+        margin-top: 5%;
+    }
+
+    .pageTitle {
+        color: black;
+
+        font-size: 18px;
+    }
+
+    .tables {
+        margin-top: 8%;
+        width: 90%;
+
+        margin-right: 7%;
+        font-weight: 500;
+        font-size: 14px;
+    }
+
+    .list_1,
+    .list_2,
+    .tables th,
+    .tables td {
+        border: 1px solid gray;
+    }
+
+    .lis1 th,
+    .list_1 td {
+        width: 150px;
+        text-align: center;
+    }
+
+    .list_2 th {
+        width: 300px;
+        text-align: left;
+    }
+}
+
+@media (min-width: 805px) {
+    .price_main {
+        margin-top: 5%;
+    }
+
+    .pageTitle {
+        color: black;
+        margin-left: 6%;
+        font-size: 18px;
+    }
+
+    .tables {
+        margin-top: 8%;
+        width: 90%;
+        margin-left: 7%;
+        margin-right: 7%;
+        font-weight: 500;
+        font-size: 18px;
+    }
+
+    .list_1,
+    .list_2,
+    .tables th,
+    .tables td {
+        border: 1px solid gray;
+    }
+
+    .lis1 th,
+    .list_1 td {
+        width: 150px;
+        text-align: center;
+    }
+
+    .list_2 th {
+        width: 300px;
+        text-align: left;
+    }
+}
+
+
+/*903px - 1050px*/
+@media (min-width: 903px) {
+    .price_main {
+        margin-top: 6%;
+    }
+
+    .pageTitle {
+        color: black;
+        margin-left: 5%;
+        font-size: 22px;
+    }
+
+    .tables {
+        margin-top: 8%;
+        width: 90%;
+        margin-left: 6%;
+        margin-right: 7%;
+        font-weight: 500;
+        font-size: 20px;
+    }
+
+    .list_1,
+    .list_2,
+    .tables th,
+    .tables td {
+        border: 1px solid gray;
+    }
+
+    .lis1 th,
+    .list_1 td {
+        width: 150px;
+        text-align: center;
+    }
+
+    .list_2 th {
+        width: 300px;
+        text-align: left;
+    }
+}
+
+
+/*1051px - 1199px*/
+@media (min-width: 1051px) {
+    .back {
+        width: 100%;
+        height: 100%;
+        background: url(../img/price/4.jpg) fixed right bottom no-repeat;
+        background-size: 100% !important;
+    }
+
+
+    .price_main {
+        margin-top: 6%;
+    }
+
+    .pageTitle {
+        color: black;
+        margin-left: 9%;
+        font-size: 24px;
+    }
+
+    .tables {
+        margin-top: 8%;
+        width: 90%;
+        margin-left: 10%;
+        margin-right: 7%;
+        font-weight: 500;
+        font-size: 22px;
+    }
+
+    .list_1,
+    .list_2,
+    .tables th,
+    .tables td {
+        border: 1px solid gray;
+    }
+
+    .lis1 th,
+    .list_1 td {
+        width: 150px;
+        text-align: center;
+    }
+
+    .list_2 th {
+        width: 300px;
+        text-align: left;
+    }
+}
+
+
+/*1200px - 1574px*/
+@media (min-width: 1200px) {
+    .price_main {
+        margin-top: 33px;
+        margin-left: 18px;
+    }
+
+    .pageTitle {
+        margin-left: 26%;
+    }
+
+    .tables {
+        margin-top: 85px;
+        width: 90%;
+        margin-left: 26%;
+        margin-right: 7%;
+        font-weight: 500;
+        font-size: 20px;
+    }
+
+    .list_1,
+    .list_2,
+    .tables th,
+    .tables td {
+        border: 1px solid gray;
+    }
+
+    .lis1 th,
+    .list_1 td {
+        width: 150px;
+        text-align: center;
+    }
+
+    .list_2 th {
+        width: 300px;
+        text-align: left;
+    }
+}
+
+@media (min-width: 1300px) {
+    .price_main {
+        margin-top: 33px;
+        margin-left: 18px;
+    }
+
+    .pageTitle {
+        margin-left: 26%;
+    }
+
+    .tables {
+        margin-top: 85px;
+        width: 90%;
+        margin-left: 26%;
+        margin-right: 7%;
+        font-weight: 500;
+        font-size: 20px;
+    }
+
+    .list_1,
+    .list_2,
+    .tables th,
+    .tables td {
+        border: 1px solid gray;
+    }
+
+    .lis1 th,
+    .list_1 td {
+        width: 150px;
+        text-align: center;
+    }
+
+    .list_2 th {
+        width: 300px;
+        text-align: left;
+    }
+}
+
+/*1575px - 1730px*/
+@media (min-width: 1575px) {
+    .price_main {
+        margin-top: 33px;
+        margin-left: 18px;
+    }
+
+    .pageTitle {
+        margin-left: 26.5%;
+        font-size: 26px;
+    }
+
+    .tables {
+        margin-top: 85px;
+        width: 90%;
+        margin-left: 27%;
+        margin-right: 7%;
+        font-weight: 500;
+        font-size: 22px;
+    }
+
+    .list_1,
+    .list_2,
+    .tables th,
+    .tables td {
+        border: 1px solid gray;
+    }
+
+    .lis1 th,
+    .list_1 td {
+        width: 150px;
+        text-align: center;
+    }
+
+    .list_2 th {
+        width: 300px;
+        text-align: left;
+    }
+}
+
+
+/*больше 1731px*/
+@media (min-width: 1731px) {
+    .price_main {
+        margin-top: 33px;
+        margin-left: 18px;
+    }
+
+    .pageTitle {
+        margin-left: 26.5;
+        font-size: 28px;
+    }
+
+    .tables {
+        margin-top: 85px;
+        width: 90%;
+        margin-left: 27%;
+        margin-right: 7%;
+        font-weight: 500;
+        font-size: 24px;
+    }
+
+    .list_1,
+    .list_2,
+    .tables th,
+    .tables td {
+        border: 1px solid gray;
+    }
+
+    .lis1 th,
+    .list_1 td {
+        width: 150px;
+        text-align: center;
+    }
+
+    .list_2 th {
+        width: 300px;
+        text-align: left;
+    }
+}
