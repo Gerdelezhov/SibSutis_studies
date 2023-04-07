@@ -1,0 +1,53 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:vm="using:VpHw_4.ViewModels"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="500" d:DesignHeight="700"
+		Width="400"
+        x:Class="VpHw_4.Views.MainWindow"
+        Icon="/Assets/avalonia-logo.ico"
+        Title="VpHw_4"
+		xmlns:conv="clr-namespace:VpHw_4.Views.Converters">
+
+	<Window.Resources>
+		<conv:FileTypeToImage x:Key="myConverter"/>
+	</Window.Resources>
+
+	<Window.Styles>
+		<Style Selector="Button">
+			<Setter Property="BorderThickness" Value="2"/>
+			<Setter Property="VerticalContentAlignment" Value="Center"/>
+			<Setter Property="HorizontalContentAlignment" Value="Center"/>
+			<Setter Property ="HorizontalAlignment" Value="Stretch" /> 
+			<Setter Property ="VerticalAlignment" Value="Stretch" />
+		</Style>
+		<Style Selector="ListBoxItem">
+			<Setter Property="Padding" Value="6"/>
+		</Style>
+		
+	</Window.Styles>
+
+	<Panel>
+		<Grid RowDefinitions="15*,*,*" IsVisible="{Binding !ExplorerMode}">
+			<TextBox Margin="1, 1, 1, 0" Name="contentTextBox" Text="{Binding ContentBox}" AcceptsTab="True" AcceptsReturn="True" TextWrapping="NoWrap"></TextBox>
+			<Button Name="openButton" Grid.Row="1" Classes="b1" Command="{Binding Open}">Открыть</Button>
+			<Button Name="saveButton" Grid.Row="2" Classes="b1" Command="{Binding Save}">Сохранить</Button>
+		</Grid>
+		<Grid RowDefinitions="15*,*,*" ColumnDefinitions="*,*" IsVisible="{Binding ExplorerMode}">
+			<ListBox Items="{Binding FileList}" SelectedItem="{Binding SelectedItem}" DoubleTapped="DoubleTap" Name="fileListBox" Grid.ColumnSpan="2">
+				<ListBox.ItemTemplate>
+					<DataTemplate>
+						<Grid ColumnDefinitions="*,9*">
+							<Image Width="40" Height="40" Source="{Binding Type, Converter={StaticResource myConverter}}" Margin="5 0 5 0"/>
+							<TextBlock Grid.Column="1" Text="{Binding Name}" VerticalAlignment="Center" HorizontalAlignment="Left"/>
+						</Grid>
+					</DataTemplate>
+				</ListBox.ItemTemplate>
+			</ListBox>
+			<TextBox Name="fileTextBox" Text="{Binding FileBox}" Grid.Row="1" Grid.ColumnSpan="2" TextWrapping="NoWrap"></TextBox>
+			<Button Name="okButton" Grid.Column="0" Grid.Row="2" Classes="b2" Command="{Binding Ok}" Content="{Binding ButtonMode}"/>
+			<Button Name="cancelButton" Grid.Column="1" Grid.Row="2" Classes="b2" Command="{Binding Cancel}">Отмена</Button>
+		</Grid>
+	</Panel>
+</Window>
